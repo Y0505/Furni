@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Vazirmatn";
+    src:
+    local("Vazirmatn"),
+    url("/src/assets/font/Vazirmatn-Light.woff2") , format("woff2");
+    font-weight: Light;
+}
+body {
+    font-family: 'Vazirmatn';
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.slide-down {
+    animation: slideDown 0.5s forwards;
+}
+
